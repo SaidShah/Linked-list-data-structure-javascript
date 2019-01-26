@@ -1,0 +1,27 @@
+.text-align-center{
+  text-align: center;
+}
+
+.circle{
+  height: 75px;
+  width: 75px;
+  background-color: lightblue;
+  border-radius: 50%;
+  display: block;
+}
+
+.circle:hover{
+  color: yellow;
+  background: blue;
+}
+
+.circle-text{
+  padding-top: 40%;
+}
+
+.line{
+  border-left: 3px solid blue;
+  height: 80px;
+  margin-left: 45%;
+  margin-top: 25px;
+}
