@@ -55,6 +55,19 @@ class LinkedList{
       currentNode = currentNode.next
     }
   }
+  getRoot(){
+    if(this.head !== null){
+      console.log(this.head.data)
+    }
+  }
+
+  getSize(){
+    if(this.size > 0){
+      console.log(this.size)
+    }
+  }
+
+
 }
 
 let list = new LinkedList()
@@ -66,3 +79,9 @@ console.log("---------------------------------")
 console.log("now remove the second node ")
 list.remove("second node")
 list.printList()
+console.log("---------------------------------")
+console.log("now get the root node ")
+list.getRoot()
+console.log("---------------------------------")
+console.log("now get the size of the list ")
+list.getSize()
